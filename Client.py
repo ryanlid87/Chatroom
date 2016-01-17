@@ -3,8 +3,8 @@ max_char_len = 1024
 
 s = socket.socket()
 host = socket.gethostname()
-port = 8080
+port = 8081
 
-s.connect((host,port))
+s.connect(('71.9.176.217',port))
 print s.recv(max_char_len)
 s.close
