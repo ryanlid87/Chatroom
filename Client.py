@@ -16,6 +16,5 @@ while 1:
         if (data <> 'Q' and data <> 'q'):
             s.send(data)
         else:
-            s.send(data)
             s.close()
             break
